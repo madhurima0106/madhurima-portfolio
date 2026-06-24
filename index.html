@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bandaru Sai Madhurima - AI & Data Science Student, Cybersecurity Enthusiast, and AI/ML Learner. Explore my portfolio, academic projects, education, and professional skills.">
+    <meta name="keywords"
+        content=" Bandaru Sai Madhurima , Portfolio, AI, Data Science, Cybersecurity, KL University, Python, Backend Development">
+    <meta name="author" content="Bandaru Sai Madhurima">
+    <title>Bandaru Sai Madhurima | AI & Cybersecurity Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Link to Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Light Blue Accents -->
+    <div class="bg-blur-dot dot-1" aria-hidden="true"></div>
+    <div class="bg-blur-dot dot-2" aria-hidden="true"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <span class="logo-accent">Sai</span>Madhurima
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="section-container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Welcome to my Portfolio</span>
+                    <h1 class="hero-title">Bandaru Sai Madhurima</h1>
+                    <p class="hero-tagline">Artificial Intelligence & Data Science Student | Cybersecurity Enthusiast |
+                        AI/ML Learner</p>
+                    <div class="hero-actions">
+                        <a href="Bandaru_Sai_Madhurima_Resume.pdf" target="_blank" id="btn-view-resume"
+                            class="btn btn-primary">
+                            <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            View Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg>
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/madhurima0106" target="_blank" rel="noopener noreferrer"
+                            class="social-link" title="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sai-madhurima" target="_blank" rel="noopener noreferrer"
+                            class="social-link" title="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="mailto:madhurimabandaru050@gmail.com" class="social-link" title="Email">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="image-border-decoration"></div>
+                    <img src="images/profile_photo.jpeg" alt="Bandaru Sai Madhurima" class="hero-image">
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#about" aria-label="Scroll to About Me">
+                    <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text-card">
+                        <p class="about-paragraph">
+                            Enthusiastic and quick-learning student from the Department of Artificial Intelligence and
+                            Data Science (AIDS), specializing in Cybersecurity and Artificial Intelligence. Possesses a
+                            solid foundation in Python programming and a keen interest in AI/ML technologies. Eager to
+                            advance skills in data analysis, machine learning model development, and secure AI systems.
+                            Known for a strong problem-solving mindset, commitment to continuous learning, and passion
+                            for applying emerging technologies to real-world challenges. Highly motivated to contribute
+                            effectively within dynamic and innovative teams.
+                        </p>
+                        <div class="about-focus-points">
+                            <div class="focus-item">
+                                <div class="focus-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                    </svg>
+                                </div>
+                                <div class="focus-details">
+                                    <h3>Cybersecurity</h3>
+                                    <p>Focusing on secure software systems, threat analysis, and defense strategies.</p>
+                                </div>
+                            </div>
+                            <div class="focus-item">
+                                <div class="focus-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l-7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                        </path>
+                                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                    </svg>
+                                </div>
+                                <div class="focus-details">
+                                    <h3>AI & Machine Learning</h3>
+                                    <p>Developing robust intelligence models and processing data streams efficiently.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">My Capabilities</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Card 1: Programming Languages -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="skill-card-title">Programming Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Python</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">SQL / MySQL</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">C Language</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2: Backend Development -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                    <path d="M3 5v6c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                    <path d="M3 11v6c0 1.66 4 3 9 3s9-1.34 9-3v-6"></path>
+                                </svg>
+                            </div>
+                            <h3 class="skill-card-title">Backend Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Python (Django / Flask)</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Node.js</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Database Systems (SQL)</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3: Tools & Technologies -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path
+                                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="skill-card-title">Tools & Technologies</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Power BI & Tableau</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Docker & Figma</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info">
+                                    <span class="skill-name">Git & VS Code</span>
+                                </div>
+                                <div class="skill-progress-track">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 – 2026</div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">B.Tech</div>
+                            <h3 class="edu-institution">KL University, Vijayawada</h3>
+                            <p class="edu-specialization">Artificial Intelligence & Data Science</p>
+                            <div class="edu-score-container">
+                                <span class="edu-score-label">CGPA:</span>
+                                <span class="edu-score-value">9.2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 – 2022</div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">Intermediate</div>
+                            <h3 class="edu-institution">New Vision Junior College, Khammam</h3>
+                            <p class="edu-specialization">MPC (Maths, Physics, Chemistry) Board Curriculum</p>
+                            <div class="edu-score-container">
+                                <span class="edu-score-label">Percentage:</span>
+                                <span class="edu-score-value">96%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Completed in 2020</div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge">SSC / 10th Class</div>
+                            <h3 class="edu-institution">New Vision School, Khammam</h3>
+                            <p class="edu-specialization">State Board Secondary School Certificate</p>
+                            <div class="edu-score-container">
+                                <span class="edu-score-label">Percentage:</span>
+                                <span class="edu-score-value">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">My Work</span>
+                    <h2 class="section-title">Academic Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-bookstore.png" alt="Online Book Store project mock interface"
+                                class="project-image">
+                            <div class="project-overlay">
+                                <span class="project-category">Full Stack Application</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Online Book Store</h3>
+                            <div class="project-tags">
+                                <span class="tag">Django</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">Python</span>
+                            </div>
+                            <p class="project-description">
+                                A feature-rich Full Stack Python application designed to browse, search, and purchase
+                                books online. Integrates a user authentication system, responsive browsing UI, and
+                                custom catalog filtering.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/madhurima0106" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn" title="View source code on GitHub">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-lms.png" alt="Learning Management System mock interface"
+                                class="project-image">
+                            <div class="project-overlay">
+                                <span class="project-category">Full Stack Application</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Learning Management System</h3>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">SQLite</span>
+                                <span class="tag">HTML/CSS</span>
+                            </div>
+                            <p class="project-description">
+                                A comprehensive, full stack educational web platform providing seamless course
+                                registration, video lectures streaming, progress tracking, and grading utilities for
+                                students and administrators.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/madhurima0106" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn" title="View source code on GitHub">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project-intrusion.png"
+                                alt="AI Intrusion Detection System analytical display" class="project-image">
+                            <div class="project-overlay">
+                                <span class="project-category">Cybersecurity AI</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">AI Intrusion Detection System</h3>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">PyCharm</span>
+                                <span class="tag">ML Models</span>
+                                <span class="tag">Kaggle Data</span>
+                            </div>
+                            <p class="project-description">
+                                Machine learning-based system trained on Kaggle cybersecurity datasets to detect
+                                malicious network packets, scan signatures, and raise warnings. Developed for secure AI
+                                environments.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/madhurima0106" target="_blank" rel="noopener noreferrer"
+                                    class="project-link-btn" title="View source code on GitHub">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">Professional Experience</span>
+                    <h2 class="section-title">Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="experience-card">
+                        <div class="exp-card-side-bar"></div>
+                        <div class="exp-card-body">
+                            <div class="exp-meta">
+                                <span class="exp-duration">Aug 2024 - Sep 2024</span>
+                                <h3 class="exp-title">Cybersecurity Virtual Intern</h3>
+                                <p class="exp-company">Slash Mark (Virtual Internship)</p>
+                            </div>
+                            <div class="exp-divider"></div>
+                            <div class="exp-details">
+                                <p class="exp-description">
+                                    Participated in a structured cybersecurity program focusing on vulnerability
+                                    assessments, defensive strategies, and secure environments setup.
+                                </p>
+                                <ul class="exp-bullets">
+                                    <li>Analyzed simulated network logs to detect potential indicators of compromise
+                                        (IoC) and trace attack paths.</li>
+                                    <li>Explored industry-standard threat modeling frameworks to analyze and preempt
+                                        structural vulnerabilities.</li>
+                                    <li>Gained practical hands-on experience in configuration safety, port security, and
+                                        user-access management policies.</li>
+                                    <li>Drafted technical reports detailing mitigation steps and safety suggestions for
+                                        application boundaries.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">Verifiable Credentials</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-container">
+                            <!-- Cloud/AWS Icon -->
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a6 6 0 0 0 0-12z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <a href="AWS_Certified_Cloud_Practitioner.pdf" target="_blank" class="btn-cert-link">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View Certificate
+                        </a>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-container">
+                            <!-- Security/CEH Icon -->
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Certified Ethical Hacker (CEH)</h3>
+                        <p class="cert-issuer">EC-Council</p>
+                        <a href="Certified_Ethical_Hacker.pdf" target="_blank" class="btn-cert-link">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View Certificate
+                        </a>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-container">
+                            <!-- Multi-Cloud Icon -->
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Aviatrix Multicloud Associate</h3>
+                        <p class="cert-issuer">Aviatrix Systems</p>
+                        <a href="Aviatrix_Multicloud_Associate.pdf" target="_blank" class="btn-cert-link">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View Certificate
+                        </a>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-container">
+                            <!-- Salesforce AI Icon -->
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l-7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Salesforce AI Associate</h3>
+                        <p class="cert-issuer">Salesforce</p>
+                        <a href="Salesforce_AI_Associate.pdf" target="_blank" class="btn-cert-link">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            View Certificate
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="contact-grid">
+                    <!-- Left Column: Contact details -->
+                    <div class="contact-details-panel">
+                        <h3 class="contact-panel-title">Let's Connect</h3>
+                        <p class="contact-panel-text">
+                            I am open to discussions about job offers, internship opportunities, academic
+                            collaborations, or questions about my projects. Feel free to contact me using any of the
+                            methods below.
+                        </p>
+
+                        <div class="contact-info-list">
+                            <!-- Email -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h4>Email Address</h4>
+                                    <a href="mailto:madhurimabandaru050@gmail.com"
+                                        class="contact-link">madhurimabandaru050@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h4>Phone Number</h4>
+                                    <a href="tel:+916301289477" class="contact-link">+91 63012 89477</a>
+                                </div>
+                            </div>
+
+                            <!-- LinkedIn -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h4>LinkedIn Profile</h4>
+                                    <a href="https://www.linkedin.com/in/sai-madhurima" target="_blank"
+                                        rel="noopener noreferrer" class="contact-link">linkedin.com/in/sai-madhurima</a>
+                                </div>
+                            </div>
+
+                            <!-- GitHub -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h4>GitHub Profile</h4>
+                                    <a href="https://github.com/madhurima0106" target="_blank" rel="noopener noreferrer"
+                                        class="contact-link">github.com/madhurima0106</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Contact Form Card -->
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send Me a Message</h3>
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Full Name</label>
+                                <input type="text" id="contact-name" name="name" class="form-input"
+                                    placeholder="John Doe" required autocomplete="name">
+                                <span class="error-msg" id="error-name" aria-live="polite"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Email Address</label>
+                                <input type="email" id="contact-email" name="email" class="form-input"
+                                    placeholder="john@example.com" required autocomplete="email">
+                                <span class="error-msg" id="error-email" aria-live="polite"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Your Message</label>
+                                <textarea id="contact-message" name="message" class="form-textarea"
+                                    placeholder="Hello Madhurima, I would like to..." rows="5" required></textarea>
+                                <span class="error-msg" id="error-message" aria-live="polite"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit-form" id="btn-submit">
+                                <svg class="btn-icon submit-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                                Send Message
+                            </button>
+
+                            <div class="form-status-container" id="form-status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-container">
+            <p class="copyright">&copy; 2026 Bandaru Sai Madhurima. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+    <!-- Interactive Resume Modal -->
+    <div id="resume-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modal-title" class="modal-title">Curriculum Vitae</h2>
+                <div class="modal-actions">
+                    <button class="btn btn-primary btn-small btn-print-resume" id="btn-print-resume">
+                        <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                        Print Resume
+                    </button>
+                    <button class="btn-close-modal" id="btn-close-modal" aria-label="Close modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body printable-resume" id="printable-resume">
+                <!-- Header of CV -->
+                <div class="cv-header">
+                    <h1 class="cv-name">Bandaru Sai Madhurima</h1>
+                    <p class="cv-title">Artificial Intelligence & Data Science Student | Cybersecurity Enthusiast</p>
+                    <div class="cv-meta-grid">
+                        <div><strong>Email:</strong> madhurimabandaru050@gmail.com</div>
+                        <div><strong>Phone:</strong> +91 63012 89477</div>
+                        <div><strong>LinkedIn:</strong> linkedin.com/in/sai-madhurima</div>
+                        <div><strong>GitHub:</strong> github.com/madhurima0106</div>
+                    </div>
+                </div>
+
+                <div class="cv-divider"></div>
+
+                <!-- Professional Summary -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Professional Summary</h2>
+                    <p>
+                        Highly motivated student from the Department of Artificial Intelligence and Data Science (AIDS)
+                        at KL University, specializing in Cybersecurity and AI. Possesses solid foundations in Python,
+                        backend framework patterns (Django, Flask), and machine learning applications. Demonstrates a
+                        strong analytical mindset, quick adaptability, and a commitment to applying engineering
+                        methodologies to real-world threats.
+                    </p>
+                </div>
+
+                <!-- Education -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Education</h2>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <strong>KL University, Vijayawada</strong>
+                            <span>2022 – 2026</span>
+                        </div>
+                        <div>B.Tech in Artificial Intelligence & Data Science</div>
+                        <div><em>CGPA: 9.2 / 10</em></div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <strong>New Vision Junior College, Khammam</strong>
+                            <span>2020 – 2022</span>
+                        </div>
+                        <div>Intermediate Board of Secondary Education</div>
+                        <div><em>Percentage: 96%</em></div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <strong>New Vision School, Khammam</strong>
+                            <span>Completed in 2020</span>
+                        </div>
+                        <div>Secondary School Certificate (SSC)</div>
+                        <div><em>Percentage: 100%</em></div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Professional Experience</h2>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <strong>Cybersecurity Virtual Intern</strong>
+                            <span>Aug 2024 - Sep 2024</span>
+                        </div>
+                        <div>Slash Mark (Virtual Internship Program)</div>
+                        <ul class="cv-list">
+                            <li>Explored security configuration assessment techniques, threat model identification, and
+                                perimeter auditing checks.</li>
+                            <li>Investigated logs to map simulated network threats and understand defense policies.</li>
+                            <li>Gained insights into system protection rules and credential isolation.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Academic Projects</h2>
+                    <div class="cv-item">
+                        <strong>AI-Powered Intrusion Detection System</strong>
+                        <div><em>Python, PyCharm, ML models, Kaggle Datasets</em></div>
+                        <p>Developed an analytical model identifying packets that violate security policies, leveraging
+                            custom datasets and analyzing indicators of compromise.</p>
+                    </div>
+                    <div class="cv-item">
+                        <strong>Online Book Store Application</strong>
+                        <div><em>Python, Django, Flask, HTML/CSS</em></div>
+                        <p>Designed a database-driven catalog system managing users, transactions, and store assets
+                            securely.</p>
+                    </div>
+                    <div class="cv-item">
+                        <strong>Learning Management System</strong>
+                        <div><em>Python, SQLite, Web Templates</em></div>
+                        <p>Built a secure user portal handling registrations, course structures, and progress charts.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Technical Skills & Tools</h2>
+                    <ul class="cv-list">
+                        <li><strong>Languages:</strong> C, Python, SQL, MySQL</li>
+                        <li><strong>Backend Systems:</strong> Node.js, Django, Flask, Database design</li>
+                        <li><strong>Tools & Platforms:</strong> Power BI, Tableau, Git, VS Code, Docker, Figma</li>
+                    </ul>
+                </div>
+
+                <!-- Certifications -->
+                <div class="cv-section">
+                    <h2 class="cv-section-title">Certifications</h2>
+                    <ul class="cv-list">
+                        <li>AWS Certified Cloud Practitioner (Amazon Web Services)</li>
+                        <li>Certified Ethical Hacker (CEH - EC-Council)</li>
+                        <li>Aviatrix Multicloud Associate (Aviatrix Systems)</li>
+                        <li>Salesforce AI Associate (Salesforce)</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
